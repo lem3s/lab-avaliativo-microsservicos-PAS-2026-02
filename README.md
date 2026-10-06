@@ -1,6 +1,12 @@
 # Laboratório de Microsserviços — PAS 2026/2
 **Alunos: João Victor Lemes Faria; Yasmin Lopes de Moura**  
 
+- **Parte 1** — [Diagrama da arquitetura](docs/arquitetura.drawio.png)
+- **Parte 2** — [Código-fonte dos serviços](#estrutura)
+- **Parte 3** — [docker-compose.yml](docker-compose.yml)
+- **Parte 4** — [Prints (criação do pedido, reserva de estoque, publicação da mensagem, processamento do pagamento)](docs/evidencias/)
+- **Parte 5** — [Respostas das perguntas](RESPOSTAS.md)
+
 Plataforma de e-commerce composta por três microsserviços em Python (FastAPI + Pydantic, gerenciados com uv),
 cada um com seu próprio PostgreSQL, comunicando-se via REST e RabbitMQ.
 
